@@ -4,10 +4,76 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hello, World</title>
+    <title>Cacahuète</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
 </head>
 <body>
-    <h1>Hello, World !</h1>
+<div class="header">
+    <div class="left-logo">
+        <img src="res/logo.png">
+    </div>
+
+    <a class="header-button" href="/">À propos</a>
+    <a class="header-button" href="#projects">Projets</a>
+</div>
+<div class="content">
+    <div class="landing-page dev">
+        <h1 class="brand">Cacahuète Dev</h1>
+        <p>Un développeur un peu taré</p>
+    </div>
+    <div id="projects" class="section-header">
+        <h1>Mes projets</h1>
+    </div>
+    <div class="article">
+        <div class="article-thumbnail">
+            <img src="res/firelabs_thumbnail.png">
+        </div>
+        <div class="article-content">
+            <div class="article-title">
+                <h1>Firelabs</h1>
+                <div class="intext-new">nouveau</div>
+            </div>
+            <p>Un jeu multijoueur qui n'a totalement pas repris le concept d'un autre</p>
+            <button class="btn-off">Coming soon !</button>
+        </div>
+    </div>
+    <div class="article">
+        <div class="article-thumbnail">
+            <img src="res/shelter_thumbnail.png">
+        </div>
+        <div class="article-content">
+            <h1>Emergency Shelter: Nuclear Attack</h1>
+            <p>Un RPG post-apocalyptique où notre pays se fait attaquer par un autre, avec des armes nucléaires</p>
+            <button class="btn-classic" onclick="seeShelter()">Aller voir</button>
+        </div>
+    </div>
+    <div class="article">
+        <div class="article-thumbnail">
+            <img src="res/nightdrive_thumbnail.png">
+        </div>
+        <div class="article-content">
+            <h1>Nightdrive: Going on Roads</h1>
+            <p>Un jeu mobile où on contrôle une voiture, la nuit, pour rentrer chez nous</p>
+            <button class="btn-classic" onclick="seeNightdrive()">Aller voir</button>
+        </div>
+    </div>
+    <div class="article">
+        <div class="article-thumbnail">
+            <img src="res/il_thumbnail.png">
+        </div>
+        <div class="article-content">
+            <h1>Infinite Library: Remastered</h1>
+            <p>Infectez tous les ordinateurs de la bibliothèque avant que la documentaliste vous attrape !</p>
+            <button class="btn-classic" onclick="seeIL()">Aller voir</button>
+        </div>
+    </div>
+    <div id="next" class="section-header">
+        <h1>Ce site est encore en construction</h1>
+        <p>Revenez plus tard, il sera encore plus beau</p>
+        <a href="https://github.com/CacahueteSansSel/cacahuetesanssel.github.io">Code source</a>
+        <div class="spacer"></div>
+    </div>
+</div>
 </body>
 </html>
